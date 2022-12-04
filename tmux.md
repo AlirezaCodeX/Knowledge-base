@@ -1,26 +1,43 @@
-#tmux
+# tmux
+
 **Terminal MultiPlexer**
 
-ctrl+b ctrl+arrowKeys
-*change pane size
-ctrl+b z
-*zoom a pane || ctrl+b z => to zoom out
-ctrl+b c
-*create a window
-ctrl+b 0 / 1
-*change windows
-ctrl+b ,
-*change a window's name
-ctrl+b t
-*time
-ctrl+b page up / down || q / esc to quit
+change pane size  
+`ctrl+b ctrl+arrowKeys`
 
-##Session
-tmux new -s <sessionName>
-\*create a new session
+zoom a pane  
+`ctrl+b z`
 
-ctrl+b $
-\*rename a session
+zoom out  
+`ctrl+b z`
 
-tmux ls
-\*show all the sessions
+create a window  
+`ctrl+b c`
+
+change windows  
+`ctrl+b 0 / 1`
+
+change a window's name  
+`ctrl+b ,`
+
+time  
+`ctrl+b t`
+
+`ctrl+b page up / down` || `q` / `esc` **to quit**
+
+## Session
+
+create a new session  
+`tmux new -s <sessionName>`
+
+rename a session  
+`ctrl+b $`
+
+show all the sessions  
+`tmux ls`
+
+change session  
+`ctrl+b (:`
+
+Kill/terminate all Tmux sessions  
+`tmux kill-server`
