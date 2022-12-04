@@ -4,11 +4,11 @@ _Terminal Emulator_
 
 ### SHELL
 
-**bash**  
-**zsh**  
-**dash**  
-**ksh**  
-**csh**
+- **bash**
+- **zsh**
+- **dash**
+- **ksh**
+- **csh**
 
 ### SYTEM COMMANDS
 
@@ -25,13 +25,13 @@ _type brew_
 
 **`env`**
 
+- USER
+- PATH
+- HOSTNAME
+
 **Check Bash history**  
 `echo $HISTFILE`  
 _!!! `cat .bash_history`_
-
-USER  
-PATH  
-HOSTNAME
 
 #### Data about the system:
 
@@ -51,7 +51,8 @@ All info
 
 `ls -ltrh /bin/sh`
 
-`which <command>`  
-to check which _command_ will running  
+to check which _command_ will be running  
+`which <command>`
+
 `whereis <command>`  
 `whatis <command>`
