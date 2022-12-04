@@ -1,19 +1,22 @@
-#LPIC 1-500
+# LPIC
 
-##Linux
+## Linux
 
-1. Debian
-   \*ubuntu - GNU workstarion
+1. Debian  
+   ubuntu - GNU workstarion
+
 2. RPM
-   *fedora - KDE workstation
-   *red hat - GNU workstation!
 
-_x86_64 | amd64_: intel and amd
-\*64 refers to 64bit
+- fedora - KDE workstation
+- red hat - GNU workstation!
+
+x86_64 | amd64: for intel and amd
+
+- 64 refers to 64bit
 
 M1 => ARM => before used for cellphones => aarch64 | arm64
 
-##Hardware
+## Hardware
 
 **Firmware** is a software on a hardware or a divice
 _BIOS_ Basic input/output System - works with MBR(Master Boot Record - First partition of the harddisk)to boot the computer
@@ -33,7 +36,7 @@ _lsusb - lspci - lsblc - lshw_
 
 **.ko** => kernel loadable modules => like a hardware's driver => _lsmod_
 
-##Boot the system
+## Boot the system
 
 1. Motherboard(MB) firmware(BIOS | UEFI) does a PowerOnSelfTest(_POST_) it checks all the hardwars like RAM... (if there is a problem, it beeps!)
 2. MB loads the _bootloader_(BL)
@@ -54,6 +57,8 @@ linking has two forms:
 2. /lib\*/
 3. /lib64/
 
-## Debian package management
+## Package management
 
-_Repository pkmng_
+_Repository pkmng:_
+
+- Brew
