@@ -1,18 +1,18 @@
 #tmux
 **Terminal MultiPlexer**
 
-_ctrl+b ctrl+arrowKeys
-_=> change pane size
-_ctrl+b z
-_=> zoom a pane || ctrl+b z => to zoom out
-_ctrl+b c
-_=> create a window
-_ctrl+b 0 / 1
-_=> change windows
-_ctrl+b ,
-_=> change a window's name
+ctrl+b ctrl+arrowKeys
+*change pane size
+ctrl+b z
+*zoom a pane || ctrl+b z => to zoom out
+ctrl+b c
+*create a window
+ctrl+b 0 / 1
+*change windows
+ctrl+b ,
+*change a window's name
 ctrl+b t
-\*time
+*time
 ctrl+b page up / down || q / esc to quit
 
 ##Session
